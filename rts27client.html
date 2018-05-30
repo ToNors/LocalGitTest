@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Rst27Client</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/rts27client.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/download.js" type="text/javascript"></script>
+    <script src="js/rts27client.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../../global/iframeresizer.contentwindow.min.js"></script>
+</head>
+<body>
+    <div class="body-content container">
+        <div class="row">
+            <div class="col-md-4">
+                <label>Venue name</label>
+            </div>
+            <div class="col-md-4">
+                <select id="selectVenueName"></select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label>Venue type</label>
+            </div>
+            <div class="col-md-4">
+                <select id="selectVenueType"></select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label>Report period</label>
+            </div>
+            <div class="col-md-4">
+                <select id="selectReportPeriod"></select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label>Report group</label>
+            </div>
+            <div class="col-md-4">
+                <select id="selectReportGroup"></select>
+            </div>
+        </div>
+        <div class="row" hidden="hidden">
+            <div class="col-md-4">
+                <label>File name</label>
+            </div>
+            <div class="col-md-4">
+                <select id="selectFileName"></select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <button id="buttonSearch">Search</button>
+            </div>
+        </div>
+        <div id="divFileName" class="row">
+            <div class="col-md-12">
+                <label>Result</label>
+                <br />
+                <span id="listFileName"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-4">
+                        <button id="buttonDownLoad">Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
